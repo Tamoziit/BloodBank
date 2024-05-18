@@ -1,0 +1,1404 @@
+{
+  "doctors": [
+    {
+      "name": "Dr. Arjun Kapoor",
+      "gender": "Male",
+      "specialization": "General Surgery",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "10:00 AM - 0:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "10:00 AM - 4:00 PM",
+        "Thursday": "8:00 AM - 10:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 031299006"
+    },
+    {
+      "name": "Dr. Deepika Mehra",
+      "gender": "Female",
+      "specialization": "Oncology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "8:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 283931519"
+    },
+    {
+      "name": "Dr. Vikas Desai",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "10:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 11:00 PM",
+        "Wednesday": "11:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 0:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 866724930"
+    },
+    {
+      "name": "Dr. Shalini Khanna",
+      "gender": "Female",
+      "specialization": "Oncology",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "10:00 AM - 0:00 PM",
+        "Tuesday": "11:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 2:00 PM",
+        "Thursday": "8:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 867425317"
+    },
+    {
+      "name": "Dr. Deepak Kapoor",
+      "gender": "Male",
+      "specialization": "Cardiology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "9:00 AM - 1:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 3:00 PM",
+        "Friday": "8:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 430076239"
+    },
+    {
+      "name": "Dr. Priya Gupta",
+      "gender": "Female",
+      "specialization": "Rheumatology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "9:00 AM - 0:00 PM",
+        "Tuesday": "11:00 AM - 3:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "8:00 AM - 3:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 708265254"
+    },
+    {
+      "name": "Dr. Varun Gupta",
+      "gender": "Male",
+      "specialization": "Pediatrics",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 0:00 PM",
+        "Wednesday": "11:00 AM - 2:00 PM",
+        "Thursday": "8:00 AM - 0:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 651158840"
+    },
+    {
+      "name": "Dr. Shalini Bhatia",
+      "gender": "Female",
+      "specialization": "Gynecology",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "8:00 AM - 11:00 PM",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "10:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 2:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 134324123"
+    },
+    {
+      "name": "Dr. Rohit Kumar",
+      "gender": "Male",
+      "specialization": "Pulmonology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "9:00 AM - 2:00 PM",
+        "Tuesday": "11:00 AM - 5:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 2:00 PM",
+        "Friday": "8:00 AM - 9:00 PM"
+      },
+      "contact_number": "+91 625581095"
+    },
+    {
+      "name": "Dr. Preeti Bhatia",
+      "gender": "Female",
+      "specialization": "Gastroenterology",
+      "location": "Bangalore",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "8:00 AM - 9:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "8:00 AM - 2:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 800439039"
+    },
+    {
+      "name": "Dr. Varun Reddy",
+      "gender": "Male",
+      "specialization": "Ophthalmology",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "10:00 AM - 2:00 PM",
+        "Tuesday": "11:00 AM - 2:00 PM",
+        "Wednesday": "8:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 11:00 PM",
+        "Friday": "8:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 239605065"
+    },
+    {
+      "name": "Dr. Sonali Sharma",
+      "gender": "Female",
+      "specialization": "Oncology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "10:00 AM - 2:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "9:00 AM - 11:00 PM",
+        "Thursday": "9:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 189239062"
+    },
+    {
+      "name": "Dr. Amit Patel",
+      "gender": "Male",
+      "specialization": "Dentistry",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "9:00 AM - 1:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "8:00 AM - 3:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "8:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 108904717"
+    },
+    {
+      "name": "Dr. Anu Jain",
+      "gender": "Female",
+      "specialization": "Rheumatology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "9:00 AM - 1:00 PM",
+        "Tuesday": "11:00 AM - 2:00 PM",
+        "Wednesday": "8:00 AM - 10:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 955445449"
+    },
+    {
+      "name": "Dr. Ritesh Reddy",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "8:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 11:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 635620744"
+    },
+    {
+      "name": "Dr. Priya Sharma",
+      "gender": "Female",
+      "specialization": "Cardiology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 0:00 PM",
+        "Wednesday": "10:00 AM - 2:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 547827094"
+    },
+    {
+      "name": "Dr. Abhishek Reddy",
+      "gender": "Male",
+      "specialization": "Pediatrics",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "9:00 AM - 1:00 PM",
+        "Tuesday": "10:00 AM - 2:00 PM",
+        "Wednesday": "9:00 AM - 11:00 PM",
+        "Thursday": "8:00 AM - 3:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 397684825"
+    },
+    {
+      "name": "Dr. Priyanka Bhatia",
+      "gender": "Female",
+      "specialization": "Gynecology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "8:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 3:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 014523812"
+    },
+    {
+      "name": "Dr. Vivek Mishra",
+      "gender": "Male",
+      "specialization": "General Surgery",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 2:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "8:00 AM - 3:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 051427481"
+    },
+    {
+      "name": "Dr. Sonali Mehra",
+      "gender": "Female",
+      "specialization": "Gastroenterology",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "9:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 5:00 PM",
+        "Thursday": "9:00 AM - 10:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 302207542"
+    },
+    {
+      "name": "Dr. Anil Reddy",
+      "gender": "Male",
+      "specialization": "ENT",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Tuesday": "9:00 AM - 1:00 PM",
+        "Wednesday": "11:00 AM - 2:00 PM",
+        "Thursday": "10:00 AM - 5:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 820176602"
+    },
+    {
+      "name": "Dr. Renuka Verma",
+      "gender": "Female",
+      "specialization": "Cardiology",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "10:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "8:00 AM - 9:00 PM",
+        "Thursday": "10:00 AM - 2:00 PM",
+        "Friday": "8:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 334178942"
+    },
+    {
+      "name": "Dr. Vivek Gupta",
+      "gender": "Male",
+      "specialization": "Dermatology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 032223203"
+    },
+    {
+      "name": "Dr. Deepika Jain",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "location": "Bangalore",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "10:00 AM - 0:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "9:00 AM - 11:00 PM",
+        "Friday": "8:00 AM - 9:00 PM"
+      },
+      "contact_number": "+91 485117005"
+    },
+    {
+      "name": "Dr. Sameer Reddy",
+      "gender": "Male",
+      "specialization": "Pulmonology",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "8:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "11:00 AM - 1:00 PM",
+        "Thursday": "8:00 AM - 10:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 300496005"
+    },
+    {
+      "name": "Dr. Preeti Singhania",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "location": "Jaipur",
+      "available_hours": {
+        "Monday": "10:00 AM - 5:00 PM",
+        "Tuesday": "8:00 AM - 10:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "9:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 014375170"
+    },
+    {
+      "name": "Dr. Rahul Kapoor",
+      "gender": "Male",
+      "specialization": "ENT",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "8:00 AM - 1:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "8:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 818313855"
+    },
+    {
+      "name": "Dr. Deepa Kapoor",
+      "gender": "Female",
+      "specialization": "Nephrology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "9:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 0:00 PM",
+        "Wednesday": "11:00 AM - 2:00 PM",
+        "Thursday": "8:00 AM - 11:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 059779345"
+    },
+    {
+      "name": "Dr. Mohit Verma",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "location": "Chennai",
+      "available_hours": {
+        "Monday": "9:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 1:00 PM",
+        "Wednesday": "10:00 AM - 5:00 PM",
+        "Thursday": "8:00 AM - 1:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 893899665"
+    },
+    {
+      "name": "Dr. Sunita Jain",
+      "gender": "Female",
+      "specialization": "Cardiology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "10:00 AM - 4:00 PM",
+        "Tuesday": "9:00 AM - 2:00 PM",
+        "Wednesday": "10:00 AM - 2:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 411632775"
+    },
+    {
+      "name": "Dr. Amit Sharma",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "9:00 AM - 2:00 PM",
+        "Tuesday": "8:00 AM - 11:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 834827430"
+    },
+    {
+      "name": "Dr. Sahil Singhania",
+      "gender": "Female",
+      "specialization": "Dentistry",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 4:00 PM",
+        "Tuesday": "9:00 AM - 4:00 PM",
+        "Wednesday": "11:00 AM - 2:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 516273778"
+    },
+    {
+      "name": "Dr. Ravi Sharma",
+      "gender": "Male",
+      "specialization": "Gynecology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Wednesday": "10:00 AM - 11:00 PM",
+        "Thursday": "10:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 889104512"
+    },
+    {
+      "name": "Dr. Neha Gupta",
+      "gender": "Female",
+      "specialization": "Gastroenterology",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "11:00 AM - 1:00 PM",
+        "Tuesday": "11:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 11:00 PM",
+        "Thursday": "9:00 AM - 0:00 PM",
+        "Friday": "8:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 841845187"
+    },
+    {
+      "name": "Dr. Abhishek Kapoor",
+      "gender": "Male",
+      "specialization": "Dentistry",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 10:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 118341055"
+    },
+    {
+      "name": "Dr. Priya Bhatia",
+      "gender": "Female",
+      "specialization": "Nephrology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "11:00 AM - 4:00 PM",
+        "Thursday": "10:00 AM - 3:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 553369541"
+    },
+    {
+      "name": "Dr. Raj Gupta",
+      "gender": "Male",
+      "specialization": "Psychiatry",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 4:00 PM",
+        "Tuesday": "8:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 362301886"
+    },
+    {
+      "name": "Dr. Neha Bhatia",
+      "gender": "Female",
+      "specialization": "Endocrinology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "8:00 AM - 10:00 PM",
+        "Wednesday": "10:00 AM - 11:00 PM",
+        "Thursday": "11:00 AM - 5:00 PM",
+        "Friday": "8:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 774304995"
+    },
+    {
+      "name": "Dr. Varun Sharma",
+      "gender": "Male",
+      "specialization": "Nephrology",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 1:00 PM",
+        "Wednesday": "8:00 AM - 0:00 PM",
+        "Thursday": "8:00 AM - 1:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 279816053"
+    },
+    {
+      "name": "Dr. Rashi Khanna",
+      "gender": "Female",
+      "specialization": "Oncology",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "8:00 AM - 0:00 PM",
+        "Wednesday": "10:00 AM - 3:00 PM",
+        "Thursday": "10:00 AM - 3:00 PM",
+        "Friday": "8:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 482496101"
+    },
+    {
+      "name": "Dr. Abhishek Gupta",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "10:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "8:00 AM - 0:00 PM",
+        "Thursday": "9:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 446755455"
+    },
+    {
+      "name": "Dr. Sunita Sharma",
+      "gender": "Female",
+      "specialization": "Hematology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "8:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 10:00 PM",
+        "Thursday": "8:00 AM - 2:00 PM",
+        "Friday": "8:00 AM - 9:00 PM"
+      },
+      "contact_number": "+91 508181513"
+    },
+    {
+      "name": "Dr. Deepak Sharma",
+      "gender": "Male",
+      "specialization": "Psychiatry",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "8:00 AM - 4:00 PM",
+        "Wednesday": "11:00 AM - 3:00 PM",
+        "Thursday": "8:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 243823822"
+    },
+    {
+      "name": "Dr. Priya Verma",
+      "gender": "Female",
+      "specialization": "Hematology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 1:00 PM",
+        "Wednesday": "10:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 175492522"
+    },
+    {
+      "name": "Dr. Arjun Kapoor",
+      "gender": "Male",
+      "specialization": "Gastroenterology",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "8:00 AM - 10:00 PM",
+        "Tuesday": "9:00 AM - 3:00 PM",
+        "Wednesday": "10:00 AM - 11:00 PM",
+        "Thursday": "11:00 AM - 4:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 319344226"
+    },
+    {
+      "name": "Dr. Simran Bhatia",
+      "gender": "Female",
+      "specialization": "Endocrinology",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "11:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 583476448"
+    },
+    {
+      "name": "Dr. Abhay Desai",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Bangalore",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 4:00 PM",
+        "Wednesday": "11:00 AM - 4:00 PM",
+        "Thursday": "10:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 062112967"
+    },
+    {
+      "name": "Dr. Shalini Bhatia",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "10:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 10:00 PM",
+        "Wednesday": "8:00 AM - 1:00 PM",
+        "Thursday": "8:00 AM - 1:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 759759819"
+    },
+    {
+      "name": "Dr. Deepak Patel",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 1:00 PM",
+        "Wednesday": "10:00 AM - 11:00 PM",
+        "Thursday": "10:00 AM - 5:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 143289478"
+    },
+    {
+      "name": "Dr. Simran Gupta",
+      "gender": "Female",
+      "specialization": "Pulmonology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 4:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 654996743"
+    },
+    {
+      "name": "Dr. Sumit Patel",
+      "gender": "Male",
+      "specialization": "Rheumatology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Tuesday": "8:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 0:00 PM",
+        "Thursday": "8:00 AM - 3:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 864774594"
+    },
+    {
+      "name": "Dr. Sunita Singh",
+      "gender": "Female",
+      "specialization": "Gynecology",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 10:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "10:00 AM - 2:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 826367817"
+    },
+    {
+      "name": "Dr. Sagar Mishra",
+      "gender": "Male",
+      "specialization": "Pulmonology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "11:00 AM - 2:00 PM",
+        "Tuesday": "11:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 0:00 PM",
+        "Thursday": "10:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 586543827"
+    },
+    {
+      "name": "Dr. Meera Gupta",
+      "gender": "Female",
+      "specialization": "General Surgery",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "10:00 AM - 11:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "10:00 AM - 1:00 PM",
+        "Thursday": "11:00 AM - 2:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 941693034"
+    },
+    {
+      "name": "Dr. Ravi Kumar",
+      "gender": "Male",
+      "specialization": "Pulmonology",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 0:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "8:00 AM - 4:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 167055978"
+    },
+    {
+      "name": "Dr. Shivani Khanna",
+      "gender": "Female",
+      "specialization": "Psychiatry",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "8:00 AM - 1:00 PM",
+        "Wednesday": "10:00 AM - 2:00 PM",
+        "Thursday": "11:00 AM - 2:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 441119999"
+    },
+    {
+      "name": "Dr. Amit Verma",
+      "gender": "Male",
+      "specialization": "Urology",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "10:00 AM - 3:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "8:00 AM - 1:00 PM",
+        "Friday": "8:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 726845373"
+    },
+    {
+      "name": "Dr. Rashi Kapoor",
+      "gender": "Female",
+      "specialization": "Pulmonology",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "11:00 AM - 5:00 PM",
+        "Tuesday": "8:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "8:00 AM - 4:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 355026349"
+    },
+    {
+      "name": "Dr. Deepak Kumar",
+      "gender": "Male",
+      "specialization": "General Surgery",
+      "location": "Jaipur",
+      "available_hours": {
+        "Monday": "10:00 AM - 5:00 PM",
+        "Tuesday": "11:00 AM - 3:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 400642744"
+    },
+    {
+      "name": "Dr. Swati Verma",
+      "gender": "Female",
+      "specialization": "Orthopedics",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "11:00 AM - 2:00 PM",
+        "Tuesday": "11:00 AM - 3:00 PM",
+        "Wednesday": "11:00 AM - 0:00 PM",
+        "Thursday": "9:00 AM - 11:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 486874883"
+    },
+    {
+      "name": "Dr. Harish Singh",
+      "gender": "Male",
+      "specialization": "Psychiatry",
+      "location": "Ahmedabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 11:00 PM",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 925270658"
+    },
+    {
+      "name": "Dr. Nisha Jain",
+      "gender": "Female",
+      "specialization": "Cardiology",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "8:00 AM - 9:00 PM",
+        "Tuesday": "11:00 AM - 5:00 PM",
+        "Wednesday": "11:00 AM - 0:00 PM",
+        "Thursday": "11:00 AM - 4:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 221574171"
+    },
+    {
+      "name": "Dr. Sameer Sharma",
+      "gender": "Male",
+      "specialization": "Neurology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "11:00 AM - 5:00 PM",
+        "Tuesday": "9:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 0:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 005032158"
+    },
+    {
+      "name": "Dr. Alisha Sharma",
+      "gender": "Female",
+      "specialization": "Hematology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "8:00 AM - 0:00 PM",
+        "Tuesday": "8:00 AM - 10:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 5:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 981674457"
+    },
+    {
+      "name": "Dr. Ritesh Verma",
+      "gender": "Male",
+      "specialization": "Orthopedics",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "8:00 AM - 2:00 PM",
+        "Wednesday": "8:00 AM - 5:00 PM",
+        "Thursday": "11:00 AM - 5:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 461369238"
+    },
+    {
+      "name": "Dr. Neha Singh",
+      "gender": "Female",
+      "specialization": "Cardiology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "10:00 AM - 3:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 9:00 PM",
+        "Thursday": "11:00 AM - 3:00 PM",
+        "Friday": "8:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 040567503"
+    },
+    {
+      "name": "Dr. Varun Sharma",
+      "gender": "Male",
+      "specialization": "Pediatrics",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "11:00 AM - 4:00 PM",
+        "Tuesday": "11:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 752440790"
+    },
+    {
+      "name": "Dr. Riya Jain",
+      "gender": "Female",
+      "specialization": "Pediatrics",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "8:00 AM - 9:00 PM",
+        "Tuesday": "8:00 AM - 11:00 PM",
+        "Wednesday": "9:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 745592829"
+    },
+    {
+      "name": "Dr. Ritesh Mishra",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "10:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 2:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 432473446"
+    },
+    {
+      "name": "Dr. Ritu Jain",
+      "gender": "Female",
+      "specialization": "Nephrology",
+      "location": "Jaipur",
+      "available_hours": {
+        "Monday": "9:00 AM - 10:00 PM",
+        "Tuesday": "10:00 AM - 11:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 762952122"
+    },
+    {
+      "name": "Dr. Alisha Gupta",
+      "gender": "Male",
+      "specialization": "Nephrology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "10:00 AM - 11:00 PM",
+        "Tuesday": "11:00 AM - 0:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "9:00 AM - 2:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 561234165"
+    },
+    {
+      "name": "Dr. Sahil Khanna",
+      "gender": "Female",
+      "specialization": "Pulmonology",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "9:00 AM - 10:00 PM",
+        "Tuesday": "11:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 1:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 885778063"
+    },
+    {
+      "name": "Dr. Ravi Verma",
+      "gender": "Male",
+      "specialization": "Neurology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "9:00 AM - 3:00 PM",
+        "Tuesday": "8:00 AM - 4:00 PM",
+        "Wednesday": "11:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 2:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 914168703"
+    },
+    {
+      "name": "Dr. Deepa Sharma",
+      "gender": "Female",
+      "specialization": "Pediatrics",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 11:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 835479765"
+    },
+    {
+      "name": "Dr. Varun Desai",
+      "gender": "Male",
+      "specialization": "Gastroenterology",
+      "location": "New Delhi",
+      "available_hours": {
+        "Monday": "11:00 AM - 5:00 PM",
+        "Tuesday": "9:00 AM - 10:00 PM",
+        "Wednesday": "10:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 3:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 615552342"
+    },
+    {
+      "name": "Dr. Shruti Singh",
+      "gender": "Female",
+      "specialization": "Psychiatry",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "8:00 AM - 4:00 PM",
+        "Tuesday": "11:00 AM - 2:00 PM",
+        "Wednesday": "10:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 10:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 043044503"
+    },
+    {
+      "name": "Dr. Vikram Gupta",
+      "gender": "Male",
+      "specialization": "Nephrology",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 10:00 PM",
+        "Thursday": "10:00 AM - 2:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 007031305"
+    },
+    {
+      "name": "Dr. Manisha Singhania",
+      "gender": "Female",
+      "specialization": "Ophthalmology",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "11:00 AM - 5:00 PM",
+        "Wednesday": "11:00 AM - 3:00 PM",
+        "Thursday": "8:00 AM - 3:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 201897342"
+    },
+    {
+      "name": "Dr. Alok Mishra",
+      "gender": "Male",
+      "specialization": "Endocrinology",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "8:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 3:00 PM",
+        "Wednesday": "10:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 552970952"
+    },
+    {
+      "name": "Dr. Renuka Kapoor",
+      "gender": "Female",
+      "specialization": "ENT",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "8:00 AM - 0:00 PM",
+        "Wednesday": "11:00 AM - 5:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Friday": "10:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 338599527"
+    },
+    {
+      "name": "Dr. Prateek Kumar",
+      "gender": "Male",
+      "specialization": "Gynecology",
+      "location": "Jaipur",
+      "available_hours": {
+        "Monday": "9:00 AM - 10:00 PM",
+        "Tuesday": "10:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "9:00 AM - 3:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 272032928"
+    },
+    {
+      "name": "Dr. Priyanka Singh",
+      "gender": "Female",
+      "specialization": "Dermatology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "10:00 AM - 0:00 PM",
+        "Tuesday": "10:00 AM - 0:00 PM",
+        "Wednesday": "9:00 AM - 10:00 PM",
+        "Thursday": "11:00 AM - 0:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 903422908"
+    },
+    {
+      "name": "Dr. Akash Patel",
+      "gender": "Male",
+      "specialization": "Rheumatology",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "11:00 AM - 4:00 PM",
+        "Tuesday": "11:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 10:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 657130469"
+    },
+    {
+      "name": "Dr. Divya Verma",
+      "gender": "Female",
+      "specialization": "Orthopedics",
+      "location": "Lucknow",
+      "available_hours": {
+        "Monday": "8:00 AM - 9:00 PM",
+        "Tuesday": "11:00 AM - 1:00 PM",
+        "Wednesday": "11:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "8:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 501165565"
+    },
+    {
+      "name": "Dr. Rohit Reddy",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "9:00 AM - 1:00 PM",
+        "Tuesday": "8:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "11:00 AM - 3:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 841046366"
+    },
+    {
+      "name": "Dr. Anu Singhania",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "9:00 AM - 11:00 PM",
+        "Tuesday": "10:00 AM - 5:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Friday": "11:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 962933042"
+    },
+    {
+      "name": "Dr. Raj Verma",
+      "gender": "Male",
+      "specialization": "Dentistry",
+      "location": "Kolkata",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "8:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 4:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 906290305"
+    },
+    {
+      "name": "Dr. Priyanka Singh",
+      "gender": "Female",
+      "specialization": "Dentistry",
+      "location": "Bhopal",
+      "available_hours": {
+        "Monday": "10:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 2:00 PM",
+        "Wednesday": "11:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 5:00 PM",
+        "Friday": "11:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 488432261"
+    },
+    {
+      "name": "Dr. Vikrant Sharma",
+      "gender": "Male",
+      "specialization": "Endocrinology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "8:00 AM - 4:00 PM",
+        "Tuesday": "8:00 AM - 10:00 PM",
+        "Wednesday": "8:00 AM - 10:00 PM",
+        "Thursday": "8:00 AM - 10:00 PM",
+        "Friday": "9:00 AM - 10:00 PM"
+      },
+      "contact_number": "+91 114339858"
+    },
+    {
+      "name": "Dr. Kavita Khanna",
+      "gender": "Female",
+      "specialization": "Endocrinology",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "10:00 AM - 1:00 PM",
+        "Tuesday": "11:00 AM - 3:00 PM",
+        "Wednesday": "8:00 AM - 3:00 PM",
+        "Thursday": "9:00 AM - 3:00 PM",
+        "Friday": "8:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 324776836"
+    },
+    {
+      "name": "Dr. Prateek Kapoor",
+      "gender": "Male",
+      "specialization": "ENT",
+      "location": "Chandigarh",
+      "available_hours": {
+        "Monday": "11:00 AM - 0:00 PM",
+        "Tuesday": "9:00 AM - 2:00 PM",
+        "Wednesday": "9:00 AM - 1:00 PM",
+        "Thursday": "10:00 AM - 4:00 PM",
+        "Friday": "8:00 AM - 9:00 PM"
+      },
+      "contact_number": "+91 502960823"
+    },
+    {
+      "name": "Dr. Deepa Mehra",
+      "gender": "Female",
+      "specialization": "Orthopedics",
+      "location": "Chennai",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "9:00 AM - 10:00 PM",
+        "Wednesday": "11:00 AM - 0:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 720987170"
+    },
+    {
+      "name": "Dr. Rajesh Verma",
+      "gender": "Male",
+      "specialization": "Oncology",
+      "location": "Pune",
+      "available_hours": {
+        "Monday": "10:00 AM - 4:00 PM",
+        "Tuesday": "10:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 11:00 PM",
+        "Thursday": "11:00 AM - 5:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 880000890"
+    },
+    {
+      "name": "Dr. Anu Jain",
+      "gender": "Female",
+      "specialization": "Rheumatology",
+      "location": "Jaipur",
+      "available_hours": {
+        "Monday": "11:00 AM - 3:00 PM",
+        "Tuesday": "11:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 3:00 PM",
+        "Thursday": "11:00 AM - 1:00 PM",
+        "Friday": "10:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 860600494"
+    },
+    {
+      "name": "Dr. Arjun Gupta",
+      "gender": "Male",
+      "specialization": "Dentistry",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "9:00 AM - 11:00 PM",
+        "Tuesday": "9:00 AM - 0:00 PM",
+        "Wednesday": "8:00 AM - 2:00 PM",
+        "Thursday": "8:00 AM - 0:00 PM",
+        "Friday": "10:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 082642380"
+    },
+    {
+      "name": "Dr. Shivani Singh",
+      "gender": "Female",
+      "specialization": "Neurology",
+      "location": "Mumbai",
+      "available_hours": {
+        "Monday": "8:00 AM - 5:00 PM",
+        "Tuesday": "11:00 AM - 4:00 PM",
+        "Wednesday": "8:00 AM - 3:00 PM",
+        "Thursday": "11:00 AM - 2:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 109625264"
+    },
+    {
+      "name": "Dr. Prateek Reddy",
+      "gender": "Male",
+      "specialization": "Pulmonology",
+      "location": "Bangalore",
+      "available_hours": {
+        "Monday": "9:00 AM - 5:00 PM",
+        "Tuesday": "8:00 AM - 1:00 PM",
+        "Wednesday": "9:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 11:00 PM",
+        "Friday": "9:00 AM - 11:00 PM"
+      },
+      "contact_number": "+91 084763763"
+    },
+    {
+      "name": "Dr. Sakshi Verma",
+      "gender": "Female",
+      "specialization": "Oncology",
+      "location": "Hyderabad",
+      "available_hours": {
+        "Monday": "8:00 AM - 1:00 PM",
+        "Tuesday": "9:00 AM - 11:00 PM",
+        "Wednesday": "11:00 AM - 4:00 PM",
+        "Thursday": "10:00 AM - 3:00 PM",
+        "Friday": "9:00 AM - 0:00 PM"
+      },
+      "contact_number": "+91 060197041"
+    },
+    {
+      "name": "Dr. Ravi Mishra",
+      "gender": "Male",
+      "specialization": "General Surgery",
+      "location": "Indore",
+      "available_hours": {
+        "Monday": "10:00 AM - 11:00 PM",
+        "Tuesday": "9:00 AM - 1:00 PM",
+        "Wednesday": "11:00 AM - 3:00 PM",
+        "Thursday": "10:00 AM - 1:00 PM",
+        "Friday": "9:00 AM - 1:00 PM"
+      },
+      "contact_number": "+91 682939976"
+    },
+    {
+      "name": "Dr. Sunita Jain",
+      "gender": "Female",
+      "specialization": "Hematology",
+      "location": "Bangalore",
+      "available_hours": {
+        "Monday": "10:00 AM - 3:00 PM",
+        "Tuesday": "9:00 AM - 5:00 PM",
+        "Wednesday": "8:00 AM - 2:00 PM",
+        "Thursday": "9:00 AM - 0:00 PM",
+        "Friday": "8:00 AM - 9:00 PM"
+      },
+      "contact_number": "+91 497794208"
+    }
+  ]
+}

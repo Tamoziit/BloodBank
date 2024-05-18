@@ -1,0 +1,39 @@
+.container .doctorGrid {
+    gap: 2.8rem;
+    padding: 1rem 1.5em;
+}
+
+.search-bar-container {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    margin: 0 30px;
+    background: var(--color-card);
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+  }
+  
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .search-bar {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .search-bar {
+        width:220px;
+    }
+}

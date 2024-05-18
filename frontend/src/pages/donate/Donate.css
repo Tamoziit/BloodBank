@@ -1,0 +1,104 @@
+.donate {
+    flex-direction: column;
+    background: rgba(243, 98, 192, 0.282);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.292);
+    border: 4px solid rgba(250, 37, 72, 0.537);
+    border-radius: 18px;
+    overflow: hidden;
+    margin-top: 100px;
+    padding: 0 25px 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.donateHeader {
+    width: 100%;
+    z-index: 100;
+}
+
+.donateHeader img {
+    height: 10vh;
+}
+
+.donateHeader h1{
+    transform: translateX(-9px);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h3 {
+    color: var(--color-primary);
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.form label {
+    color: var(--color-primary);
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.form input {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    outline: none;
+    height: 28px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: var(--color-primary);
+}
+
+.form .loginBtn {
+    height: 36px;
+    width: 260px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.form .link {
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.form select {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    outline: none;
+    height: 38px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 8px;
+    color: var(--color-primary);
+    padding: 4px;
+}
+
+.donateList {
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+    padding: 0 2rem;
+}
+
+.donateList h2 {
+    color: var(--color-primary)
+}
+
+.default {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 20px;
+    width: 50vh;
+    font-size: 1.2rem;
+}

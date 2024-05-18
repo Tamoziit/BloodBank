@@ -1,0 +1,59 @@
+.upGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.event {
+   height: 40vh;
+   width: 67vh;
+   background: var(--color-card);
+   padding: 3px 10px;
+   border-radius: 15px;
+}
+
+.event:hover {
+    border: 4px solid rgba(250, 37, 72, 0.537);
+}
+
+.upImg {
+    height: 35vh;
+    width: 40vh;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.upDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.upDetails .upDate {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.upDetails .para {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.upDetails a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.upDetails a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .upGrid {
+        grid-template-columns: 1fr;
+        transform: translateY(170px);
+        margin-left: 40px;
+    }
+}

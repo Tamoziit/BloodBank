@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --color-primary: rgb(63, 60, 63);
+  --color-bg-secondary: rgb(246, 55, 131);
+  --color-card: rgba(247, 23, 113, 0.305);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg2.jpg");
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-blood {
+  display: grid;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-donate {
+  display: grid;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid {
+  display: grid;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+  color: var(--color-primary);
+  background: var(--color-bg-secondary);
+  cursor: pointer;
+  border: 2px solid rgba(123, 5, 41, 0.733);
+  outline: none;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.3);
+  color: antiquewhite;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control {
+  margin-right: 6px;
+}
+
+.form-control .label {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  gap: 3px;
+}
+
+.form-control .label .checkbox {
+  margin-top: 6px;
+  height: 20px;
+  accent-color: var(--color-primary);
+}
+
+input[type=checkbox]:checked {
+  background-color: var(--color-primary);
+}
+
+.selected {
+  background-color: var(--color-primary);
+}
+
+input[type=checkbox]:checked+label::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: var(--color-primary);
+  margin-right: 10px;
+}
+
+.selected {
+  border: 1px solid var(--color-primary);
+}
+
+.img {
+  height: 10vh;
+  right: 10px;
+}
+
+.section {
+  transform: translateY(900px);
+  margin: 100px 0;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5px;
+  }
+
+  .grid-blood {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5px;
+  }
+
+  .grid-donate {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin-left: 3px;
+    transform: translateX(-10px);
+    margin-top: 10px;
+  }
+
+  .grid-blood {
+    grid-template-columns: 1fr;
+    transform: translateX(-10px);
+  }
+
+  .grid-donate {
+    grid-template-columns: 1fr;
+    margin-left: 3px;
+  }
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #341424c2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d92381e6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #de57b8;;
+}

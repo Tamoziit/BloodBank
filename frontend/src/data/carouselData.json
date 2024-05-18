@@ -1,0 +1,20 @@
+{
+    "slides": [
+        {
+            "src": "cimg1.jpeg",
+            "alt": "img1"
+        },
+        {
+            "src": "cimg2.png",
+            "alt": "img2"
+        },
+        {
+            "src": "cimg3.jpg",
+            "alt": "img3"
+        },
+        {
+            "src": "cimg4.jpeg",
+            "alt": "img4"
+        }
+    ]
+}

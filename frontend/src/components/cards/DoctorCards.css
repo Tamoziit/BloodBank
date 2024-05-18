@@ -1,0 +1,19 @@
+.doctorContainer {
+    flex-direction: column;
+    background: var(--color-card);
+    height: 58vh;
+    width: 42vh;
+    overflow: hidden;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.doctorContainer:hover {
+    border: 4px solid rgba(250, 37, 72, 0.537);
+}
+
+.doctorContainer .img {
+    height: 60%;
+    width: 80%;
+    margin-bottom: 5px;
+}

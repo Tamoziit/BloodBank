@@ -1,0 +1,16 @@
+.news {
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.newsImg {
+    height: 60vh;
+    width: 95%;
+}
+
+@media screen and (max-width: 1024px) {
+    .news {
+        transform: translateY(150px)
+    }
+}

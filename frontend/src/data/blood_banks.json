@@ -1,0 +1,754 @@
+{
+  "blood_banks": [
+    {
+      "blood_bank_hospital_name": "City Blood Bank",
+      "location": "Mumbai",
+      "contact_number": "+91 433962590",
+      "blood_inventory": {
+        "A+": 58,
+        "A-": 4,
+        "B+": 6,
+        "B-": 6,
+        "AB+": 35,
+        "AB-": 9,
+        "O+": 33,
+        "O-": 14
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Metro Blood Center",
+      "location": "Ahmedabad",
+      "contact_number": "+91 434630406",
+      "blood_inventory": {
+        "A+": 66,
+        "A-": 58,
+        "B+": 27,
+        "B-": 2,
+        "AB+": 70,
+        "AB-": 36,
+        "O+": 14,
+        "O-": 4
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Regional Blood Bank",
+      "location": "Bangalore",
+      "contact_number": "+91 248069967",
+      "blood_inventory": {
+        "A+": 13,
+        "A-": 76,
+        "B+": 19,
+        "B-": 47,
+        "AB+": 77,
+        "AB-": 13,
+        "O+": 4,
+        "O-": 7
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Lifeblood Hospital",
+      "location": "Dehradun",
+      "contact_number": "+91 874269369",
+      "blood_inventory": {
+        "A+": 38,
+        "A-": 53,
+        "B+": 12,
+        "B-": 40,
+        "AB+": 72,
+        "AB-": 23,
+        "O+": 29,
+        "O-": 6
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Bloodcare Clinic",
+      "location": "Indore",
+      "contact_number": "+91 749429698",
+      "blood_inventory": {
+        "A+": 32,
+        "A-": 66,
+        "B+": 84,
+        "B-": 84,
+        "AB+": 36,
+        "AB-": 50,
+        "O+": 73,
+        "O-": 11
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Vitality Blood Center",
+      "location": "Allahabad",
+      "contact_number": "+91 169478725",
+      "blood_inventory": {
+        "A+": 70,
+        "A-": 25,
+        "B+": 23,
+        "B-": 59,
+        "AB+": 7,
+        "AB-": 31,
+        "O+": 21,
+        "O-": 0
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Unity Blood Bank",
+      "location": "Bangalore",
+      "contact_number": "+91 568896561",
+      "blood_inventory": {
+        "A+": 16,
+        "A-": 73,
+        "B+": 28,
+        "B-": 62,
+        "AB+": 28,
+        "AB-": 45,
+        "O+": 39,
+        "O-": 1
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Hope Hospital",
+      "location": "Bhavnagar",
+      "contact_number": "+91 131817557",
+      "blood_inventory": {
+        "A+": 49,
+        "A-": 4,
+        "B+": 67,
+        "B-": 41,
+        "AB+": 21,
+        "AB-": 78,
+        "O+": 1,
+        "O-": 0
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Red Cross Blood Center",
+      "location": "Rajahmundry",
+      "contact_number": "+91 720060062",
+      "blood_inventory": {
+        "A+": 40,
+        "A-": 40,
+        "B+": 47,
+        "B-": 24,
+        "AB+": 4,
+        "AB-": 37,
+        "O+": 10,
+        "O-": 14
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Healthway Blood Bank",
+      "location": "Amritsar",
+      "contact_number": "+91 099608464",
+      "blood_inventory": {
+        "A+": 76,
+        "A-": 23,
+        "B+": 2,
+        "B-": 49,
+        "AB+": 2,
+        "AB-": 55,
+        "O+": 12,
+        "O-": 6
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Sunrise Blood Clinic",
+      "location": "Faridabad",
+      "contact_number": "+91 213120602",
+      "blood_inventory": {
+        "A+": 24,
+        "A-": 1,
+        "B+": 26,
+        "B-": 23,
+        "AB+": 7,
+        "AB-": 64,
+        "O+": 43,
+        "O-": 9
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Carewell Blood Bank",
+      "location": "Nagpur",
+      "contact_number": "+91 009934484",
+      "blood_inventory": {
+        "A+": 24,
+        "A-": 75,
+        "B+": 10,
+        "B-": 50,
+        "AB+": 39,
+        "AB-": 58,
+        "O+": 20,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Starlight Blood Center",
+      "location": "Srinagar",
+      "contact_number": "+91 216572458",
+      "blood_inventory": {
+        "A+": 53,
+        "A-": 84,
+        "B+": 36,
+        "B-": 11,
+        "AB+": 24,
+        "AB-": 49,
+        "O+": 82,
+        "O-": 0
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Wellness Blood Bank",
+      "location": "Kolkata",
+      "contact_number": "+91 151624615",
+      "blood_inventory": {
+        "A+": 4,
+        "A-": 69,
+        "B+": 31,
+        "B-": 34,
+        "AB+": 26,
+        "AB-": 42,
+        "O+": 74,
+        "O-": 15
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Angel Blood Clinic",
+      "location": "Indore",
+      "contact_number": "+91 755791384",
+      "blood_inventory": {
+        "A+": 23,
+        "A-": 74,
+        "B+": 5,
+        "B-": 55,
+        "AB+": 8,
+        "AB-": 75,
+        "O+": 67,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Prime Blood Hospital",
+      "location": "Varanasi",
+      "contact_number": "+91 438760174",
+      "blood_inventory": {
+        "A+": 49,
+        "A-": 71,
+        "B+": 13,
+        "B-": 85,
+        "AB+": 13,
+        "AB-": 58,
+        "O+": 71,
+        "O-": 8
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Global Blood Bank",
+      "location": "Madurai",
+      "contact_number": "+91 482114806",
+      "blood_inventory": {
+        "A+": 59,
+        "A-": 40,
+        "B+": 38,
+        "B-": 39,
+        "AB+": 61,
+        "AB-": 24,
+        "O+": 3,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Essential Blood Center",
+      "location": "Ludhiana",
+      "contact_number": "+91 026358729",
+      "blood_inventory": {
+        "A+": 42,
+        "A-": 27,
+        "B+": 3,
+        "B-": 58,
+        "AB+": 75,
+        "AB-": 42,
+        "O+": 19,
+        "O-": 10
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Harmony Blood Bank",
+      "location": "Durgapur",
+      "contact_number": "+91 577873668",
+      "blood_inventory": {
+        "A+": 48,
+        "A-": 80,
+        "B+": 55,
+        "B-": 29,
+        "AB+": 23,
+        "AB-": 19,
+        "O+": 56,
+        "O-": 5
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Rainbow Blood Hospital",
+      "location": "Indore",
+      "contact_number": "+91 844720214",
+      "blood_inventory": {
+        "A+": 23,
+        "A-": 66,
+        "B+": 73,
+        "B-": 28,
+        "AB+": 59,
+        "AB-": 26,
+        "O+": 32,
+        "O-": 15
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Sunshine Blood Bank",
+      "location": "Chandigarh",
+      "contact_number": "+91 468930041",
+      "blood_inventory": {
+        "A+": 47,
+        "A-": 0,
+        "B+": 44,
+        "B-": 1,
+        "AB+": 46,
+        "AB-": 18,
+        "O+": 30,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Healwell Blood Center",
+      "location": "Bangalore",
+      "contact_number": "+91 587480299",
+      "blood_inventory": {
+        "A+": 78,
+        "A-": 42,
+        "B+": 30,
+        "B-": 84,
+        "AB+": 83,
+        "AB-": 9,
+        "O+": 49,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Angel Heart Hospital",
+      "location": "Guwahati",
+      "contact_number": "+91 752157496",
+      "blood_inventory": {
+        "A+": 8,
+        "A-": 6,
+        "B+": 71,
+        "B-": 84,
+        "AB+": 66,
+        "AB-": 32,
+        "O+": 16,
+        "O-": 1
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Miracle Blood Bank",
+      "location": "Guwahati",
+      "contact_number": "+91 165350005",
+      "blood_inventory": {
+        "A+": 42,
+        "A-": 11,
+        "B+": 15,
+        "B-": 83,
+        "AB+": 54,
+        "AB-": 21,
+        "O+": 43,
+        "O-": 2
+      }
+    },
+    {
+      "blood_bank_hospital_name": "First Aid Blood Center",
+      "location": "Kurnool",
+      "contact_number": "+91 708484336",
+      "blood_inventory": {
+        "A+": 26,
+        "A-": 8,
+        "B+": 1,
+        "B-": 68,
+        "AB+": 69,
+        "AB-": 25,
+        "O+": 31,
+        "O-": 11
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Pulse Blood Clinic",
+      "location": "Kolkata",
+      "contact_number": "+91 647492440",
+      "blood_inventory": {
+        "A+": 11,
+        "A-": 13,
+        "B+": 78,
+        "B-": 46,
+        "AB+": 73,
+        "AB-": 81,
+        "O+": 79,
+        "O-": 10
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Life Saver Hospital",
+      "location": "Patiala",
+      "contact_number": "+91 693084780",
+      "blood_inventory": {
+        "A+": 53,
+        "A-": 65,
+        "B+": 33,
+        "B-": 9,
+        "AB+": 58,
+        "AB-": 15,
+        "O+": 51,
+        "O-": 2
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Divine Blood Bank",
+      "location": "Nashik",
+      "contact_number": "+91 079171560",
+      "blood_inventory": {
+        "A+": 41,
+        "A-": 57,
+        "B+": 18,
+        "B-": 64,
+        "AB+": 43,
+        "AB-": 19,
+        "O+": 50,
+        "O-": 9
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Eternal Blood Center",
+      "location": "Kolkata",
+      "contact_number": "+91 878080724",
+      "blood_inventory": {
+        "A+": 11,
+        "A-": 78,
+        "B+": 31,
+        "B-": 45,
+        "AB+": 17,
+        "AB-": 25,
+        "O+": 33,
+        "O-": 12
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Grace Hospital",
+      "location": "Patna",
+      "contact_number": "+91 043731824",
+      "blood_inventory": {
+        "A+": 60,
+        "A-": 57,
+        "B+": 80,
+        "B-": 61,
+        "AB+": 46,
+        "AB-": 48,
+        "O+": 74,
+        "O-": 10
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Hopeful Blood Bank",
+      "location": "Surat",
+      "contact_number": "+91 616919485",
+      "blood_inventory": {
+        "A+": 5,
+        "A-": 6,
+        "B+": 45,
+        "B-": 32,
+        "AB+": 77,
+        "AB-": 53,
+        "O+": 75,
+        "O-": 9
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Genesis Blood Clinic",
+      "location": "Mumbai",
+      "contact_number": "+91 776741983",
+      "blood_inventory": {
+        "A+": 40,
+        "A-": 77,
+        "B+": 57,
+        "B-": 29,
+        "AB+": 42,
+        "AB-": 46,
+        "O+": 31,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Victory Blood Bank",
+      "location": "Kolkata",
+      "contact_number": "+91 758331769",
+      "blood_inventory": {
+        "A+": 52,
+        "A-": 67,
+        "B+": 65,
+        "B-": 53,
+        "AB+": 77,
+        "AB-": 26,
+        "O+": 66,
+        "O-": 7
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Serenity Blood Center",
+      "location": "Indore",
+      "contact_number": "+91 534211271",
+      "blood_inventory": {
+        "A+": 72,
+        "A-": 72,
+        "B+": 18,
+        "B-": 21,
+        "AB+": 48,
+        "AB-": 41,
+        "O+": 22,
+        "O-": 15
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Trinity Hospital",
+      "location": "Agra",
+      "contact_number": "+91 689595359",
+      "blood_inventory": {
+        "A+": 71,
+        "A-": 39,
+        "B+": 40,
+        "B-": 13,
+        "AB+": 81,
+        "AB-": 58,
+        "O+": 34,
+        "O-": 1
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Carelife Blood Bank",
+      "location": "Rajahmundry",
+      "contact_number": "+91 445981991",
+      "blood_inventory": {
+        "A+": 77,
+        "A-": 60,
+        "B+": 50,
+        "B-": 60,
+        "AB+": 65,
+        "AB-": 7,
+        "O+": 26,
+        "O-": 13
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Healthline Blood Center",
+      "location": "Rajahmundry",
+      "contact_number": "+91 043580089",
+      "blood_inventory": {
+        "A+": 28,
+        "A-": 78,
+        "B+": 37,
+        "B-": 62,
+        "AB+": 85,
+        "AB-": 83,
+        "O+": 47,
+        "O-": 9
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Unity Hospital",
+      "location": "Ranchi",
+      "contact_number": "+91 881375346",
+      "blood_inventory": {
+        "A+": 81,
+        "A-": 58,
+        "B+": 18,
+        "B-": 4,
+        "AB+": 7,
+        "AB-": 79,
+        "O+": 33,
+        "O-": 8
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Miracle Blood Center",
+      "location": "Nagpur",
+      "contact_number": "+91 869685404",
+      "blood_inventory": {
+        "A+": 48,
+        "A-": 11,
+        "B+": 58,
+        "B-": 74,
+        "AB+": 43,
+        "AB-": 25,
+        "O+": 84,
+        "O-": 13
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Sunrise Blood Bank",
+      "location": "Gulbarga",
+      "contact_number": "+91 086885290",
+      "blood_inventory": {
+        "A+": 71,
+        "A-": 71,
+        "B+": 82,
+        "B-": 41,
+        "AB+": 3,
+        "AB-": 45,
+        "O+": 7,
+        "O-": 8
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Omega Blood Clinic",
+      "location": "Bokaro Steel City",
+      "contact_number": "+91 841057817",
+      "blood_inventory": {
+        "A+": 1,
+        "A-": 64,
+        "B+": 12,
+        "B-": 44,
+        "AB+": 67,
+        "AB-": 30,
+        "O+": 66,
+        "O-": 8
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Trustworthy Hospital",
+      "location": "Bangalore",
+      "contact_number": "+91 918287148",
+      "blood_inventory": {
+        "A+": 23,
+        "A-": 42,
+        "B+": 71,
+        "B-": 71,
+        "AB+": 17,
+        "AB-": 8,
+        "O+": 27,
+        "O-": 4
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Healing Touch Blood Bank",
+      "location": "Kolkata",
+      "contact_number": "+91 199598164",
+      "blood_inventory": {
+        "A+": 12,
+        "A-": 65,
+        "B+": 19,
+        "B-": 32,
+        "AB+": 75,
+        "AB-": 56,
+        "O+": 60,
+        "O-": 2
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Angel Wings Hospital",
+      "location": "Bokaro Steel City",
+      "contact_number": "+91 445451739",
+      "blood_inventory": {
+        "A+": 80,
+        "A-": 76,
+        "B+": 4,
+        "B-": 47,
+        "AB+": 6,
+        "AB-": 67,
+        "O+": 79,
+        "O-": 1
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Supreme Blood Bank",
+      "location": "Surat",
+      "contact_number": "+91 186930908",
+      "blood_inventory": {
+        "A+": 11,
+        "A-": 61,
+        "B+": 74,
+        "B-": 21,
+        "AB+": 50,
+        "AB-": 29,
+        "O+": 83,
+        "O-": 15
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Sunset Blood Center",
+      "location": "Nagpur",
+      "contact_number": "+91 329077062",
+      "blood_inventory": {
+        "A+": 65,
+        "A-": 72,
+        "B+": 3,
+        "B-": 67,
+        "AB+": 26,
+        "AB-": 3,
+        "O+": 65,
+        "O-": 3
+      }
+    },
+    {
+      "blood_bank_hospital_name": "City Blood Bank",
+      "location": "Chandigarh",
+      "contact_number": "+91 219699510",
+      "blood_inventory": {
+        "A+": 13,
+        "A-": 34,
+        "B+": 85,
+        "B-": 24,
+        "AB+": 47,
+        "AB-": 3,
+        "O+": 42,
+        "O-": 4
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Metro Blood Center",
+      "location": "Kanpur",
+      "contact_number": "+91 765162821",
+      "blood_inventory": {
+        "A+": 46,
+        "A-": 44,
+        "B+": 71,
+        "B-": 58,
+        "AB+": 78,
+        "AB-": 63,
+        "O+": 5,
+        "O-": 9
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Regional Blood Bank",
+      "location": "Ahmedabad",
+      "contact_number": "+91 471662247",
+      "blood_inventory": {
+        "A+": 7,
+        "A-": 62,
+        "B+": 5,
+        "B-": 46,
+        "AB+": 31,
+        "AB-": 36,
+        "O+": 5,
+        "O-": 11
+      }
+    },
+    {
+      "blood_bank_hospital_name": "Lifeblood Hospital",
+      "location": "Ahmedabad",
+      "contact_number": "+91 836406053",
+      "blood_inventory": {
+        "A+": 7,
+        "A-": 28,
+        "B+": 51,
+        "B-": 77,
+        "AB+": 62,
+        "AB-": 53,
+        "O+": 77,
+        "O-": 15
+      }
+    }
+  ]
+}
