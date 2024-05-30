@@ -7,18 +7,22 @@ const useSignup = () => {
     const { setAuthUser } = useAuthContext();
 
 
-    const signup = ({ username, password, confirmPassword, mobileNo, email, gender }) => {
-        const success = handleInputErrors({ username, password, confirmPassword, mobileNo, email, gender })
+    const signup = ({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup, gender }) => {
+        const success = handleInputErrors({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup,  gender })
 
         if (!success) return;
 
         setLoading(true);
         try {
             const user = {
+                fullName,
                 username,
                 password,
+                confirmPassword,
                 mobileNo,
                 email,
+                age,
+                bloodGroup,
                 gender,
             };
 
@@ -59,8 +63,8 @@ const useSignup = () => {
 export default useSignup
 
 
-function handleInputErrors({ username, password, confirmPassword, mobileNo, email, gender }) {
-    if (!username || !password || !confirmPassword || !mobileNo || !email || !gender) {
+function handleInputErrors({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup, gender }) {
+    if (!fullName || !username || !password || !confirmPassword || !mobileNo || !email || !age || !bloodGroup || !gender) {
         toast.error("Please fill all the fields");
         return false;
     }
@@ -79,6 +83,5 @@ function handleInputErrors({ username, password, confirmPassword, mobileNo, emai
         toast.error("Enter a valid mobile number.");
         return false;
     }
-
     return true;
 }

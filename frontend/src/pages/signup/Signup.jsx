@@ -4,17 +4,24 @@ import { useState } from "react";
 import { RiLockPasswordFill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaCalendarAlt } from "react-icons/fa";
+import { MdBloodtype } from "react-icons/md";
+import { FaTransgender } from "react-icons/fa";
 import "./Signup.css";
 import GenderCheckbox from "../../components/GenderCheckbox";
 import useSignup from "../../hooks/useSignup.js";
+import BloodGroupCheckbox from "../../components/BloodGroupCheckbox.jsx";
 
 const Login = () => {
   const [inputs, setInputs] = useState({
+    fullName: '',
     username: '',
     password: '',
     confirmPassword: '',
     mobileNo: '',
     email: '',
+    age: '',
+    bloodGroup: '',
     gender: ''
   });
 
@@ -22,6 +29,10 @@ const Login = () => {
 
   const handleCheckboxChange = (gender) => {
     setInputs({ ...inputs, gender });
+  }
+
+  const handleBloodGroup = (bloodGroup) => {
+    setInputs({ ...inputs, bloodGroup });
   }
 
   const handleSubmit = (e) => {
@@ -38,6 +49,10 @@ const Login = () => {
       <form onSubmit={handleSubmit}>
         <div className="form">
           <h3 className="container">Signup</h3>
+          <label><FaUser /> Full Name</label>
+          <input type="text" placeholder="Enter Full Name"
+            value={inputs.fullName}
+            onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })} />
           <label><FaUser /> Username</label>
           <input type="text" placeholder="Enter Username"
             value={inputs.username}
@@ -58,9 +73,16 @@ const Login = () => {
           <input type="email" placeholder="Enter Email"
             value={inputs.email}
             onChange={(e) => setInputs({ ...inputs, email: e.target.value })} />
+          <label><FaCalendarAlt /> Age</label>
+          <input type="text" placeholder="Enter Age"
+            value={inputs.age}
+            onChange={(e) => setInputs({ ...inputs, age: e.target.value })} />
+          <label><MdBloodtype /> Blood Group</label>
+          <BloodGroupCheckbox onCheckboxChange={handleBloodGroup} selectedGroup={inputs.bloodGroup} />
+          <label><FaTransgender /> Gender</label>
           <GenderCheckbox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
-          <button className="btn loginBtn" disabled={loading}>Signup</button>
-          <Link className="link" to="/login">Already have an account? Login</Link>
+          <button className="btn loginBtn signupBtn" disabled={loading}>Signup</button>
+          <Link className="link signupLink" to="/login">Already have an account? Login</Link>
         </div>
       </form>
     </div>

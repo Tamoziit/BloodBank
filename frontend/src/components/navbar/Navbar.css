@@ -22,7 +22,7 @@
 
 .header .options {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin: 0 6px;
 }
 
@@ -51,52 +51,3 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-    .header .options {
-        gap: 20px;
-    }
-
-    .header .profile {
-        margin-left: 20px;
-    }
-
-    .header .logo h3 {
-        margin-right: 10px;
-    }
-}
-
-/*@media screen and (max-width: 720px) {
-    .header .options {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        background: var(--color-card);
-        border-radius: 10px;
-        padding: 10px;
-    }
-
-    .header .options.show {
-        display: flex;
-        transform: translateX(-100px);
-    }
-
-    .header .profile {
-        margin-left: 20px;
-    }
-
-    .header .logo h3 {
-        margin-right: 10px;
-    }
-
-    .menu-icon {
-        display: block;
-        margin-right: 40px;
-        transform: translateX(-50px);
-    }
-
-    .profile .res.hide {
-        display: none;
-    }
-}*/

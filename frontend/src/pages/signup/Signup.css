@@ -6,6 +6,8 @@
     border-radius: 18px;
     overflow: hidden;
     padding: 0 25px 0 20px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 
 .signupHeader {
@@ -62,8 +64,16 @@
     margin-bottom: 10px;
 }
 
+.form .signupBtn {
+    margin-left: 45px;
+}
+
 .form .link {
     color: var(--color-primary);
     text-decoration: none;
     margin-bottom: 10px;
+}
+
+.form .signupLink {
+    margin-left: 30px;
 }

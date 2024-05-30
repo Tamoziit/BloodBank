@@ -6,8 +6,8 @@ const useDonate = () => {
     const [loading, setLoading] = useState(false);
     const { authUser } = useAuthContext();
 
-    const donate = ({ fullName, mobileNo, email, age, blood_group, gender, centre }) => {
-        const success = handleInputErrors({ fullName, mobileNo, email, age, blood_group, gender, centre })
+    const donate = ({ fullName, username, mobileNo, email, age, blood_group, gender, centre }) => {
+        const success = handleInputErrors({ fullName, username, mobileNo, email, age, blood_group, gender, centre })
 
         if (!success) return;
 
@@ -16,6 +16,7 @@ const useDonate = () => {
         try {
             const donateItem = {
                 fullName,
+                username: authUser.username,
                 mobileNo,
                 email,
                 age,
@@ -25,7 +26,6 @@ const useDonate = () => {
             };
 
             if (authUser.email === email) {
-                // local Storage
                 const donate = JSON.parse(localStorage.getItem('donate')) || [];
 
                 donate.push(donateItem);

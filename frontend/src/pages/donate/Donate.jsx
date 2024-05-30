@@ -4,6 +4,7 @@ import { SlCalender } from "react-icons/sl";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BiSolidDonateBlood } from "react-icons/bi";
+import { FaTransgender } from "react-icons/fa";
 import "./Donate.css";
 import GenderCheckbox from "../../components/GenderCheckbox";
 import Navbar from "../../components/navbar/Navbar";
@@ -11,10 +12,16 @@ import { blood_banks } from "../../data/blood_banks.json";
 import useDonate from "../../hooks/useDonate";
 import BloodCard from "../../components/cards/BloodCard";
 import { useAuthContext } from "../../context/AuthContext";
+import BloodGroupCheckbox from "../../components/BloodGroupCheckbox.jsx";
 
 const Donate = () => {
+  const [centre, setCentre] = useState(null);
+  const { loading, donate } = useDonate();
+  const { authUser } = useAuthContext();
+
   const [inputs, setInputs] = useState({
     fullName: '',
+    username: authUser.username,
     mobileNo: '',
     email: '',
     age: '',
@@ -23,18 +30,19 @@ const Donate = () => {
     centre: ''
   });
 
-  const [centre, setCentre] = useState(null);
-  const { loading, donate } = useDonate();
-  const { authUser } = useAuthContext();
-
   const [filteredCentres, setFilteredCentres] = useState(() => {
     const centres = JSON.parse(localStorage.getItem("donate")) || [];
-    return centres.filter(item => item.email === authUser.email);
+    return centres.filter(item => item.username === authUser.username);
   });
 
   const handleCheckboxChange = (gender) => {
     setInputs({ ...inputs, gender });
   }
+
+  const handleBloodGroup = (blood_group) => {
+    setInputs({ ...inputs, blood_group });
+  }
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,6 +51,7 @@ const Donate = () => {
       setFilteredCentres([...filteredCentres, newDonation]);
       setInputs({
         fullName: '',
+        username: authUser.username,
         mobileNo: '',
         email: '',
         age: '',
@@ -76,7 +85,7 @@ const Donate = () => {
           <h3 className="container">Donate for a Cause</h3>
           <label><FaUser /> Full Name</label>
           <input type="text" placeholder="Enter Full Name"
-            value={inputs.username}
+            value={inputs.fullName}
             onChange={(e) => setInputs({ ...inputs, fullName: e.target.value })} />
           <label><FaPhoneAlt /> Contacts</label>
           <input type="text" placeholder="Enter Mobile number"
@@ -91,9 +100,8 @@ const Donate = () => {
             value={inputs.age}
             onChange={(e) => setInputs({ ...inputs, age: e.target.value })} />
           <label><BiSolidDonateBlood /> Blood Group</label>
-          <input type="text" placeholder="Enter your Blood Group"
-            value={inputs.blood_group}
-            onChange={(e) => setInputs({ ...inputs, blood_group: e.target.value })} />
+          <BloodGroupCheckbox onCheckboxChange={handleBloodGroup} selectedGroup={inputs.blood_group} />
+          <label><FaTransgender /> Gender</label>
           <GenderCheckbox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
           <select value={centre ? centre.blood_bank_hospital_name : "Select Centre"} onChange={handleChange}>
             <option>--Select Centre--</option>
@@ -101,7 +109,7 @@ const Donate = () => {
               <option value={item.blood_bank_hospital_name} key={idx}>{item.blood_bank_hospital_name}, {item.location}</option>
             ))}
           </select>
-          <button className="btn loginBtn" disabled={loading}>Submit</button>
+          <button className="btn signupBtn loginBtn" disabled={loading}>Submit</button>
         </div>
       </form>
     </div>
