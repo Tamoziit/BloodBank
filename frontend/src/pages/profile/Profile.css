@@ -47,7 +47,7 @@
 .profileLink {
     color: var(--color-primary);
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .profileLink:hover {

@@ -1,0 +1,27 @@
+.donateContainer {
+    flex-direction: column;
+    background: var(--color-card);
+    height: 50vh;
+    width: 42vh;
+    overflow: hidden;
+    padding: 10px 10px;
+    border-radius: 20px;
+    transform: translateY(-40px);
+}
+
+.donateContainer:hover {
+    border: 4px solid rgba(250, 37, 72, 0.537);
+}
+
+.donateContainer .img {
+    height: 55%;
+    width: 75%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .donateContainer {
+        width: 36vh;
+    }
+}

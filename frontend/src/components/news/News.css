@@ -11,6 +11,18 @@
 
 @media screen and (max-width: 1024px) {
     .news {
-        transform: translateY(150px)
+        transform: translateY(150px);
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news {
+        transform: translateY(-10px);
+        margin-right: 5px;
+    }
+
+    .newsImg {
+        height: 45vh;
+        width: 80%;
     }
 }

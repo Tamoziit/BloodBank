@@ -57,3 +57,42 @@
         margin-left: 40px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .upGrid {
+        grid-template-columns: 1fr;
+        transform: translateY(50px);
+        margin-right: 48px;
+    }
+
+    .event {
+        width: 40vh;
+        height: 30vh;
+        padding: 6px 10px;
+    }
+
+    .upImg {
+        width: 50%;
+        height: 80%;
+    }
+
+    .upDetails .para {
+        font-size: 0.7rem;
+    }
+
+    .upLine {
+        font-size: 0.8rem;
+    }
+
+    .upDate {
+        font-size: 0.8rem;
+    }
+
+    .upHead {
+        font-size: 1.1rem;
+    }
+
+    .upDetails a {
+        font-size: 0.6rem;
+    }
+}

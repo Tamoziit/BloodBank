@@ -10,7 +10,7 @@ import GenderCheckbox from "../../components/GenderCheckbox";
 import Navbar from "../../components/navbar/Navbar";
 import { blood_banks } from "../../data/blood_banks.json";
 import useDonate from "../../hooks/useDonate";
-import BloodCard from "../../components/cards/BloodCard";
+import DonateCard from "../../components/cards/DonateCard";
 import { useAuthContext } from "../../context/AuthContext";
 import BloodGroupCheckbox from "../../components/BloodGroupCheckbox.jsx";
 
@@ -120,7 +120,7 @@ const Donate = () => {
           {filteredCentres.length > 0 ? (
             <div className="grid-blood bloodGrid">
               {filteredCentres.map((item, idx) => (
-                <BloodCard data={item.centre} key={idx} />
+                <DonateCard data={item} key={idx} />
               ))} </div>
           ) : (
             <div className="container">
