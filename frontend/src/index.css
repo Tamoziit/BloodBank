@@ -3,6 +3,7 @@
 :root {
   --color-primary: rgb(63, 60, 63);
   --color-bg-secondary: rgb(246, 55, 131);
+  --color-bg-tertiary: rgb(225, 84, 140);
   --color-card: rgba(247, 23, 113, 0.305);
 }
 
@@ -14,7 +15,6 @@
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg2.jpg");
-  /*background-repeat: no-repeat;*/
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -154,6 +154,10 @@ input[type=checkbox]:checked+label::before {
   .grid-donate {
     grid-template-columns: 1fr;
     margin-left: 3px;
+  }
+
+  .img {
+    height: 65px;
   }
 }
 

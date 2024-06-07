@@ -1,6 +1,7 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useAuthContext } from "../context/AuthContext";
+import bcrypt from "bcryptjs";
 
 const useLogin = () => {
     const [loading, setLoading] = useState(false);
@@ -13,9 +14,11 @@ const useLogin = () => {
         setLoading(true);
         try {
             const users = JSON.parse(localStorage.getItem("users"));
+            
             if (users) {
-                const user = users.find(u => u.username === username && u.password === password);
-                if (user) {
+                const user = users.find(u => u.username === username);
+                const isPasswordCorrect = await bcrypt.compare(password, user.password || "");
+                if (user && isPasswordCorrect) {
                     toast.success("Logged in successfully!");
                     const loggedUser = JSON.parse(localStorage.getItem("loggedUsers"));
                     if (!loggedUser) {

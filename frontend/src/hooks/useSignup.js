@@ -1,24 +1,28 @@
 import { useState } from "react"
 import toast from "react-hot-toast";
 import { useAuthContext } from "../context/AuthContext";
+import bcrypt from "bcryptjs";
 
 const useSignup = () => {
     const [loading, setLoading] = useState(false);
     const { setAuthUser } = useAuthContext();
 
 
-    const signup = ({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup, gender }) => {
+    const signup = async({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup, gender }) => {
         const success = handleInputErrors({ fullName, username, password, confirmPassword, mobileNo, email, age, bloodGroup,  gender })
 
         if (!success) return;
 
         setLoading(true);
         try {
+            const salt = await bcrypt.genSalt(10);
+            const hashedPassword = await bcrypt.hash(password, salt);
+            
             const user = {
                 fullName,
                 username,
-                password,
-                confirmPassword,
+                password: hashedPassword,
+                confirmPassword: hashedPassword,
                 mobileNo,
                 email,
                 age,

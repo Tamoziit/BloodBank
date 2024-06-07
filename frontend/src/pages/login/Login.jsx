@@ -19,7 +19,7 @@ const Login = () => {
     <div className="container login">
       <div className="container loginHeader">
         <img src="bloodDrop.png" />
-        <h1>Red Hope</h1>
+        <h1>RedHope</h1>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form">

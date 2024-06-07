@@ -78,7 +78,7 @@ const Donate = () => {
     <div className="container donate">
       <div className="container donateHeader">
         <img src="bloodDrop.png" />
-        <h1>Red Hope</h1>
+        <h1>RedHope</h1>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form">

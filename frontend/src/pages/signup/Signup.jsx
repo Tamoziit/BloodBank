@@ -35,16 +35,16 @@ const Login = () => {
     setInputs({ ...inputs, bloodGroup });
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    signup(inputs);
+    await signup(inputs);
   }
 
   return (
     <div className="container signup">
       <div className="container signupHeader">
         <img src="bloodDrop.png" />
-        <h1>Red Hope</h1>
+        <h1>RedHope</h1>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="form">
