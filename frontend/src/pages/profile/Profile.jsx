@@ -14,7 +14,7 @@ const Profile = () => {
   const { authUser } = useAuthContext();
 
   const centres = JSON.parse(localStorage.getItem("donate"));
-  const filteredCentres = centres.filter(item => item.username === authUser.username);
+  const filteredCentres = centres?.filter(item => item.username === authUser.username) || "";
   
   const ProfilePic = authUser.gender === "Male" ? `https://avatar.iran.liara.run/public/boy?username=${authUser.username}` : `https://avatar.iran.liara.run/public/girl?username=${authUser.username}`;
 
