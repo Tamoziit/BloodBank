@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd frontend && npm run dev",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Tamojit Das, Sagnik Basak",
   "license": "ISC"
